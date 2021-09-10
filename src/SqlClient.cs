@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -28,9 +28,9 @@ namespace Databaseoppgave8_31_2021
         /// </summary>
         /// <param name="script"></param>
         /// <returns></returns>
-        public string Query(string data)
+        public string[][] Query(string data)
         {
-            return "";
+            return new string[][]{ };
         }
     }
 
